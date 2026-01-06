@@ -2,7 +2,7 @@ Has your place of employment rolled out Zscaler and now network requests mysteri
 
 # How to fix npm and pip SSL errors on a *nix machine
 
-If npm is throwing `UNABLE_TO_GET_ISSUER_CERT_LOCALLY` or pip ain't working, download [Zscaler's public key](./zscaler_root_ca.pem) and define some [important environment variables](https://help.zscaler.com/zia/adding-custom-certificate-application-specific-trust-store) for npm and pip:
+If npm is throwing `UNABLE_TO_GET_ISSUER_CERT_LOCALLY` or pip ain't working, download [Zscaler's public key](./zscaler_root_ca.pem) and define some [important environment variables](https://help.zscaler.com/zia/adding-custom-certificate-application-specific-trust-store) for npm and pip by doing the following:
 
 ```
 mkdir -p ~/Documents/certs/
